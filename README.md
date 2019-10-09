@@ -28,7 +28,7 @@ Start dev server
 npm run start
 ```
 
-To re-run the `graphql-codegen`
+To re-run the `graphql-codegen`. The graphql server needs to be running.
 ```
 npm run graphql-codegen
 ```
