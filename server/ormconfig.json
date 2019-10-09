@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "password",
+    "database": "typed_everything",
+    "synchronize": true,
+    "logging": "all",
+    "entities": [
+      "src/entities/**/*.ts"
+    ],
+    "migrations": [
+      "migration/**/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "migration"
+    }
+  }
