@@ -1,0 +1,14 @@
+query Posts {
+  posts {
+    id
+    title
+    body
+    createdAt
+  }
+}
+
+mutation createPost($data: PostInput!) {
+  createPost(data: $data) {
+    id
+  }
+}
